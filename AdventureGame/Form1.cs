@@ -19,9 +19,9 @@ namespace AdventureGame
         public Form1()
         {
             InitializeComponent();
-            output.Text = "you want a sandwich. you begin to make your sandwich but you realize you have no cheese. will you get cheese or settle for something else? ";
-            redOutput.Text = "sandwich";
-            blueOutput.Text = "something else";
+            output.Text = "You want a sandwich. you begin to make your sandwich but you realize you have no cheese. Will you get cheese or settle for something else? ";
+            redOutput.Text = " something else";
+            blueOutput.Text = " get cheese";
 
             sceneImage.BackgroundImage = Properties.Resources.sceneOne;
         }
@@ -78,101 +78,101 @@ namespace AdventureGame
                 case 0:
                     break;
                 case 1:
-                    output.Text = "you monster, you can not just settle for something else  you want a sandwich like a real man. look for cheese or not";
+                    output.Text = "You monster, you can not just settle for something else  you want a sandwich like a real man. Look for cheese or not.";
 
                     redOutput.Text = " something else";
-                    blueOutput.Text = "look for cheese ";
+                    blueOutput.Text = " look for cheese ";
                     break;
                 case 2:
-                    output.Text = "you decide not to have a sandwich because you are a weak little man baby. the end. would you like to play again? ";
+                    output.Text = "You decide not to have a sandwich because you are a weak little man baby. The end. Would you like to play again? ";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     break;
                 case 3:
-                    output.Text = "you decide that cheese must be found in order to enjoy your sandwich, but where do you start. go outside or look in the fridge again ? ";
+                    output.Text = "You decide that cheese must be found in order to enjoy your sandwich, but where do you start. Go outside or look in the fridge again ? ";
                     redOutput.Text = "look in fridge";
                     blueOutput.Text = "go outside";
                     break;
                 case 4:
-                    output.Text = "you open the fridge and still no cheese is their. you decide that there are only two options from this point,  go outside to fine cheese or open a portal to hell.";
+                    output.Text = "You open the fridge and still no cheese is there. You decide that there are only two options from this point,  go outside to find cheese or open a portal to hell.";
                     redOutput.Text = "open portal";
                         blueOutput.Text = "go outside";
                     sceneImage.BackgroundImage = Properties.Resources.scene4;
                     break;
                 case 5:
-                    output.Text = "you figer that goats are associated with hell so you can get some goat cheese to shake things up. oh but how as that portal made again? yeet milk at the wall or yeet milk on the floor?";
+                    output.Text = "You figer that goats are associated with hell so you can get some goat cheese to shake things up. Oh but how as that portal made again? Throw milk at the wall or throw milk on the floor?";
                     redOutput.Text = "floor";
                         blueOutput.Text = "wall";
                     sceneImage.BackgroundImage = Properties.Resources.scene5;
                     break;
                 case 6:
-                    output.Text = "well now you just have a bunch of milk on the floor. you can no longer have you sandwich as now you have to clean this big mess, good job buddy. play again?";
+                    output.Text = "Well now you just have a bunch of milk on the floor. You can no longer have you sandwich as now you have to clean this big mess, good job buddy. Play again?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     sceneImage.BackgroundImage = Properties.Resources.scene6;
                     break;
                 case 7:
-                    output.Text = "after yeeting milk at the wall a portal to hell opens up.  will you walk in or wright a note and pass it through?";
+                    output.Text = "After throwing milk at the wall a portal to hell opens up.  Will you walk in or wright a note and pass it through?";
                     redOutput.Text = "pass note";
                     blueOutput.Text = "go on in";
                     break;
                 case 8:
-                    output.Text = "you walk in and the portal closes behind you. you are trapped in hell because you were to lazy to go to the store and get some bloody cheese. play again?";
+                    output.Text = "You walk in and the portal closes behind you. You are trapped in hell because you were to lazy to go to the store and get some bloody cheese. Play again?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     break;
                 case 9:
-                    output.Text = "you pass a note through and after about a minute to so a block of cheese is tossed out. use it? ";
+                    output.Text = "You pass a note through and after about a minute to so a block of cheese is tossed out. Use it? ";
                     redOutput.Text = "Yes";
                     blueOutput.Text = "No";
                     sceneImage.BackgroundImage = Properties.Resources.scene9;
                     break;
                 case 10:
-                    output.Text = "you place the cheese upon your sandwich and as you eat it you realize something, its hot like really hot. you're just on fire, but its worth it. play again? ";
+                    output.Text = "You place the cheese upon your sandwich and as you eat it you realize something, its hot like really hot. You're just on fire, but its worth it. Play again? ";
                     redOutput.Text = " yes";
                     blueOutput.Text = "no";
                     break;
                 case 11:
-                    output.Text = "you go outside. great you're outside now, so now what? will you go to the store or  go to a farm?";
+                    output.Text = "You go outside. great you're outside now, so now what? Will you go to the store or  go to a farm?";
                     redOutput.Text = "farm";
                     blueOutput.Text = "store";
                     sceneImage.BackgroundImage = Properties.Resources.scene11;
                     break;
                 case 12:
-                    output.Text = "you go to your local farm and you see it, a cow. will you obtain its milk?";
+                    output.Text = "You go to your local farm and you see it, a cow. Will you obtain its milk?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     sceneImage.BackgroundImage = Properties.Resources.scene12;
                     break;
                 case 13:
-                    output.Text = "you go up to the cow  but as you go to milk it you realize that this is not a cow, it is a bull. it kicks you in the face and now you have brain damage. play again? ";
+                    output.Text = "You go up to the cow  but as you go to milk it you realize that this is not a cow, it is a bull. It kicks you in the face and now you have brain damage. play again? ";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     sceneImage.BackgroundImage = Properties.Resources.scene13;
                     break;
                 case 14:
-                    output.Text = "you go to the store and get some cheese. you can finally enjoy your sandwich. the end. would you like to play again? ";
+                    output.Text = "You go to the store and get some cheese. You can finally enjoy your sandwich. The end. Would you like to play again? ";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     sceneImage.BackgroundImage = Properties.Resources.scene14;
                     break;
                 case 15:
-                    output.Text = "you remember that you dont know how to make cheese. go to the store?";
+                    output.Text = "You remember that you dont know how to make cheese. Go to the store?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     break;
                 case 16:
-                    output.Text = "well now you have no cheese and cannot enjoy your sandwich. play again?";
+                    output.Text = "Well now you have no cheese and cannot enjoy your sandwich. Play again?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     break;
                 case 17:
-                    output.Text = "you decide not to use it and now you have no cheese for you sandwich. play again?";
+                    output.Text = "You decide not to use it and now you have no cheese for you sandwich. Play again?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
                     break;
                 case 99:
-                    output.Text = " you have no cheese for your sandwich. you have failed play again?";
+                    output.Text = " You have no cheese for your sandwich. You have failed play again?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
 
