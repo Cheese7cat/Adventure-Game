@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace AdventureGame
 {
+    //Paige Chaisson
+    //Adventure Game
+    //2019/11/07
     public partial class Form1 : Form
     {
         int scene = 0;
@@ -41,7 +44,7 @@ namespace AdventureGame
                 else if (scene == 11) { scene = 12; }
                 else if (scene == 12) { scene = 13; }
                 else if (scene == 13) { scene = 0;  }
-                else if (scene == 14) { scene = 99; }
+                else if (scene == 14) { scene = 0; }
                 else if (scene == 15) { scene = 14; }
                 else if (scene == 16) { scene = 0; }
                 else if (scene == 17) { scene = 0; }
@@ -51,22 +54,23 @@ namespace AdventureGame
             {
                 if (scene == 0) { scene = 3; }
                 else if (scene == 1) { scene = 3; }
-                else if (scene == 2) { scene = 99; }
+                else if (scene == 2) { this.Close(); }
                 else if (scene == 3) { scene = 11; }
                 else if (scene == 4) { scene = 11; }
                 else if (scene == 5) { scene = 7; }
-                else if (scene == 6) { scene = 99; }
+                else if (scene == 6) { this.Close(); }
                 else if (scene == 7) { scene = 8; }
-                else if (scene == 8) { scene = 99; }
+                else if (scene == 8) { this.Close(); }
                 else if (scene == 9) { scene = 17; }
                 else if (scene == 10) { scene = 0; }
                 else if (scene == 11) { scene = 14; }
                 else if (scene == 12) { scene = 15; }
-                else if (scene == 13) { scene = 99; }
-                else if (scene == 14) { scene = 0; }
+                else if (scene == 13) { this.Close(); }
+                else if (scene == 14) { this.Close(); }
                 else if (scene == 15) { scene = 16; }
                 else if (scene == 16) { scene = 99; }
-                else if (scene == 17) { scene = 99; }
+                else if (scene == 17) { this.Close(); }
+                else if (scene == 99) { this.Close(); }
             }
 
            switch (scene)
@@ -76,8 +80,8 @@ namespace AdventureGame
                 case 1:
                     output.Text = "you monster, you can not just settle for something else  you want a sandwich like a real man. look for cheese or not";
 
-                    redOutput.Text = "look for cheese";
-                    blueOutput.Text = " something else";
+                    redOutput.Text = " something else";
+                    blueOutput.Text = "look for cheese ";
                     break;
                 case 2:
                     output.Text = "you decide not to have a sandwich because you are a weak little man baby. the end. would you like to play again? ";
@@ -171,9 +175,10 @@ namespace AdventureGame
                     output.Text = " you have no cheese for your sandwich. you have failed play again?";
                     redOutput.Text = "yes";
                     blueOutput.Text = "no";
+
                     break;
             }
-        }
+        } 
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -182,5 +187,9 @@ namespace AdventureGame
           
         }
 
+        private void Label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

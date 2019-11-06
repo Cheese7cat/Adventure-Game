@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.output = new System.Windows.Forms.Label();
             this.redOutput = new System.Windows.Forms.Label();
             this.blueOutput = new System.Windows.Forms.Label();
@@ -45,6 +46,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sceneImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -191,12 +196,49 @@
             this.label10.Size = new System.Drawing.Size(367, 217);
             this.label10.TabIndex = 20;
             // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.DimGray;
+            this.label11.Location = new System.Drawing.Point(1, 9);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(10, 472);
+            this.label11.TabIndex = 21;
+            this.label11.Click += new System.EventHandler(this.Label11_Click);
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.DimGray;
+            this.label12.Location = new System.Drawing.Point(561, 2);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(10, 472);
+            this.label12.TabIndex = 23;
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.DimGray;
+            this.label13.Location = new System.Drawing.Point(-5, 2);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(576, 10);
+            this.label13.TabIndex = 24;
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.DimGray;
+            this.label14.Location = new System.Drawing.Point(-5, 474);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(576, 17);
+            this.label14.TabIndex = 25;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(550, 464);
+            this.ClientSize = new System.Drawing.Size(572, 483);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.sceneImage);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -214,8 +256,9 @@
             this.Controls.Add(this.back);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.blueOutput);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Cheese Obtainer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.sceneImage)).EndInit();
@@ -244,6 +287,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
     }
 }
 
